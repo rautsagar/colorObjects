@@ -1,3 +1,30 @@
+Programming problem
+-------------------
+ 
+Retrieve and render a collection of objects from a server, handle state transitions
+
+Using languages, frameworks and tools of your choice, implement the following:
+
+    A web service that exposes a REST interface, and allows the client to retrieve a collection of objects.
+        Each object has the following attributes: id, and 'color'. Color can be one of red, green or blue.
+
+    A client UI that:
+        Retrieves the collection of objects from the web service
+        Displays objects while grouping them based on the associated color
+        Allows the user to reassign any object to a different color
+
+Solution
+--------
+The REST API is made using Node.js and express.js.
+    The code for the API is locates in /app.js
+
+The user Interface is made using Jade template, and is located in the file /views/index.jade
+    The stylesheet is defined in the file /public/stylesheets/custom.css
+
+ 
+The MV* framework used in the fronted is Backbone.js
+The ability to reassign the objects to different groups dynamically calls for storing the data in models linked to views, hence I used backbone.
+    All the Javascript/backbone functions defined by me are located in /public/stylesheets/functions.js
 
 Files
 -----
