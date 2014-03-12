@@ -1,0 +1,15 @@
+{
+  "name": "colorObjects",
+  "version": "0.0.1",
+  "author": "Sagar",
+  "license": "Sagar",
+  "description": "create API for Objects with color",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.4.8",
+    "jade": "1.3.0"
+  }
+}
